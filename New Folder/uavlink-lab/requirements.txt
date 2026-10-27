@@ -1,5 +1,0 @@
-numpy>=1.22
-scipy>=1.8
-matplotlib>=3.5   # only for examples/ and the `map` CLI command
-fastapi>=0.110
-uvicorn>=0.27

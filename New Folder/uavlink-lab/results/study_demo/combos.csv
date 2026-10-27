@@ -1,5 +1,0 @@
-combo_id,combo,n_links,peak_radio_w,warm_floor_w,payload_kg,valid_jammed_inspection
-5f435eb3,cell,1,2.665087,0.600000,0.060000,1
-09aab375,rf24,1,2.900000,0.800000,0.070000,1
-86a28d88,wifi,1,4.504755,1.000000,0.100000,1
-e419e2d8,wifi+rf24,2,7.404755,1.800000,0.170000,1

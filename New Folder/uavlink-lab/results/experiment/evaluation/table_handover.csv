@@ -1,2 +1,0 @@
-policy,hard,soft,ping-pong,switch/min,cost [CI],disruption s,proactive share,hard time-to-usable s,RLF,dup time s
-predictive,0,4,0,-,"0.8 [-, -]",-,1,-,-,-

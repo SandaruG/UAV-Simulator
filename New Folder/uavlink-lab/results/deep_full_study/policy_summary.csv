@@ -1,5 +1,0 @@
-policy,n_combos,mean_blind,best_blind,mean_diff_vs_ref(per combo),frac_combos_better_than_ref,p_vs_ref
-bonding,41,0.717317,0.000000,-0.193049,0.365854,0.028937
-pred_cost,41,0.622683,0.000000,-0.287683,0.390244,0.038309
-pred_threshold,41,0.622683,0.000000,-0.287683,0.390244,0.038309
-reactive,41,0.910366,0.000000,nan,nan,nan

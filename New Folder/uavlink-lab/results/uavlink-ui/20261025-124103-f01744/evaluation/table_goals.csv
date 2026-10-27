@@ -1,9 +1,0 @@
-goal,policy,vs,estimate,95% CI,target,verdict
-Control p99 latency <= 150 ms,pred_cost,,-,"[-, -]",150,NO DATA
-Control within 150 ms >= 99 %,pred_cost,,-,"[-, -]",0.99,NO DATA
-Mean comm power <= 8 W budget,pred_cost,,-,"[-, -]",8,NO DATA
-Outage-prediction AUC >= 0.90,pred_cost,,-,"[-, -]",0.9,NO DATA
-Outage episode recall >= 0.90,pred_cost,,-,"[-, -]",0.9,NO DATA
-Mean warning lead time >= 1.0 s,pred_cost,,-,"[-, -]",1,NO DATA
-False alarms <= 2 per minute,pred_cost,,-,"[-, -]",2,NO DATA
-Brier score <= 0.10,pred_cost,,-,"[-, -]",0.1,NO DATA

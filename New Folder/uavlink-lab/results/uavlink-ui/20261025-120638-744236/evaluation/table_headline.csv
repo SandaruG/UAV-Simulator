@@ -1,2 +1,0 @@
-policy,n,blind s,P(any blind),longest blind s,ctrl<=100ms,ctrl<=150ms,ctrl p99 ms,video Q,freeze s,J cost,done
-pred_threshold,1,"0 [-, -]",0,0,1,1,"16.7 [-, -]","0.913 [-, -]","0 [-, -]","0.186 [-, -]",0

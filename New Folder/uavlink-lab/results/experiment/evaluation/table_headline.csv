@@ -1,2 +1,0 @@
-policy,n,blind s,P(any blind),longest blind s,ctrl<=100ms,ctrl<=150ms,ctrl p99 ms,video Q,freeze s,J cost,done
-predictive,1,"8.36 [-, -]",1,5.08,0.9649,0.9706,"193 [-, -]","0.773 [-, -]","15.1 [-, -]","0.549 [-, -]",1
