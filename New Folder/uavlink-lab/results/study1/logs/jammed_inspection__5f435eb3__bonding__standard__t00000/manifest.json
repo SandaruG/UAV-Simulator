@@ -1,0 +1,36 @@
+{
+ "run_id": "jammed_inspection__5f435eb3__bonding__standard__t00000",
+ "seed": 256268580882155520,
+ "policy": {
+  "class": "exhaustive_experiment:RolePolicy",
+  "params": {
+   "inner": {
+    "name": "bonding",
+    "params": {}
+   },
+   "control_ok": [
+    "cell"
+   ],
+   "video_ok": [
+    "cell"
+   ]
+  }
+ },
+ "scenario_hash": "989c89b22fc23022",
+ "module_version": "1.0.0",
+ "module_sha": "fb3985759c966c79",
+ "numpy": "1.26.4",
+ "python": "3.12.3",
+ "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+ "argv": [
+  "exhaustive_experiment.py",
+  "--config",
+  "study_demo.json",
+  "--out",
+  "results/study1"
+ ],
+ "partial": false,
+ "tick_hash": "3b778129d3bc4c34",
+ "state_crc": 3860236431,
+ "created_utc": "2026-10-26T10:10:10Z"
+}

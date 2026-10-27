@@ -1,0 +1,109 @@
+{
+ "name": "blind_time_study",
+ "master_seed": 2026,
+ "n_trials": 100,
+ "scenario": "urban_canyon",
+ "baseline": "reactive",
+ "overrides": {
+  "dt": 0.05,
+  "duration_s": 600.0,
+  "traffic": {
+   "ctrl_hz": 20.0
+  }
+ },
+ "randomize": {
+  "wind_scale": [
+   0.5,
+   1.8
+  ],
+  "rain_scale": [
+   0.0,
+   2.0
+  ],
+  "waypoint_jitter_m": 120,
+  "alt_jitter_m": 10,
+  "speed_scale": [
+   0.8,
+   1.2
+  ],
+  "start_soc": [
+   0.7,
+   1.0
+  ],
+  "station_jitter_m": 20,
+  "link_tx_jitter_db": 1.0,
+  "env_reseed": true,
+  "buildings_count": [
+   60,
+   160
+  ],
+  "interference": {
+   "count": [
+    0,
+    3
+   ],
+   "eirp_dbm": [
+    22,
+    36
+   ],
+   "t_start": [
+    20,
+    250
+   ],
+   "dur": [
+    5,
+    40
+   ],
+   "near_path": true
+  },
+  "fault_processes": [
+   {
+    "kind": "link_blackout",
+    "rate_per_min": 0.3,
+    "duration_mean_s": 3.0,
+    "link": "any"
+   }
+  ]
+ },
+ "policies": [
+  {
+   "label": "static",
+   "name": "static_primary",
+   "params": {
+    "control_link": "wifi_5g",
+    "video_link": "wifi_5g"
+   }
+  },
+  {
+   "label": "reactive",
+   "name": "reactive",
+   "params": {
+    "priority": [
+     "wifi_5g",
+     "sub1ghz",
+     "lte"
+    ]
+   }
+  },
+  {
+   "label": "bonding",
+   "name": "bonding"
+  },
+  {
+   "label": "pred",
+   "name": "cost_predictive",
+   "sweep": {
+    "p_hard": [
+     0.3,
+     0.5,
+     0.7
+    ],
+    "p_dup": [
+     0.2,
+     0.4
+    ]
+   }
+  }
+ ],
+ "save_ticks": "first:2"
+}

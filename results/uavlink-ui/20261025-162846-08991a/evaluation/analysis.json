@@ -1,0 +1,577 @@
+{
+ "notes": [],
+ "selection": null,
+ "labels": [
+  "pred_cost"
+ ],
+ "proposed": [
+  "pred_cost"
+ ],
+ "baselines": [],
+ "proposed_all": [
+  "pred_cost"
+ ],
+ "metrics": [
+  "blind_time_s",
+  "blind_any",
+  "max_blind_episode_s",
+  "ctrl_within_100ms_rate",
+  "ctrl_within_150ms_rate",
+  "ctrl_lat_p99_ms",
+  "video_quality_mean",
+  "video_freeze_s",
+  "handover_cost",
+  "n_hard_switch",
+  "n_soft_switch",
+  "energy_comm_wh",
+  "comm_power_mean_w",
+  "utility_cost",
+  "mission_completed",
+  "pred_auc",
+  "pred_ep_recall",
+  "pred_lead_mean_s",
+  "pred_false_alarms_per_min",
+  "pred_brier",
+  "blind_fraction",
+  "ctrl_lat_p95_ms",
+  "ctrl_lat_p999_ms",
+  "video_usable_fraction",
+  "n_pingpong",
+  "proactive_switch_frac",
+  "energy_per_video_mbit_j",
+  "spectrum_mean_mhz",
+  "n_primary_outages",
+  "outage_to_blind_rate",
+  "pred_precision",
+  "pred_ece",
+  "pred_ap"
+ ],
+ "summary": {
+  "pred_cost": {
+   "blind_time_s": {
+    "n": 1,
+    "mean": 5.049999999995407,
+    "sd": 0.0,
+    "median": 5.049999999995407,
+    "q25": 5.049999999995407,
+    "q75": 5.049999999995407,
+    "p95": 5.049999999995407,
+    "max": 5.049999999995407,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "blind_any": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "max_blind_episode_s": {
+    "n": 1,
+    "mean": 3.799999999996544,
+    "sd": 0.0,
+    "median": 3.799999999996544,
+    "q25": 3.799999999996544,
+    "q75": 3.799999999996544,
+    "p95": 3.799999999996544,
+    "max": 3.799999999996544,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_within_100ms_rate": {
+    "n": 1,
+    "mean": 0.9871794871794872,
+    "sd": 0.0,
+    "median": 0.9871794871794872,
+    "q25": 0.9871794871794872,
+    "q75": 0.9871794871794872,
+    "p95": 0.9871794871794872,
+    "max": 0.9871794871794872,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_within_150ms_rate": {
+    "n": 1,
+    "mean": 0.9877437151275782,
+    "sd": 0.0,
+    "median": 0.9877437151275782,
+    "q25": 0.9877437151275782,
+    "q75": 0.9877437151275782,
+    "p95": 0.9877437151275782,
+    "max": 0.9877437151275782,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_lat_p99_ms": {
+    "n": 1,
+    "mean": 108.25219999999962,
+    "sd": 0.0,
+    "median": 108.25219999999962,
+    "q25": 108.25219999999962,
+    "q75": 108.25219999999962,
+    "p95": 108.25219999999962,
+    "max": 108.25219999999962,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_quality_mean": {
+    "n": 1,
+    "mean": 0.5120883354491882,
+    "sd": 0.0,
+    "median": 0.5120883354491882,
+    "q25": 0.5120883354491882,
+    "q75": 0.5120883354491882,
+    "p95": 0.5120883354491882,
+    "max": 0.5120883354491882,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_freeze_s": {
+    "n": 1,
+    "mean": 158.8899999998555,
+    "sd": 0.0,
+    "median": 158.8899999998555,
+    "q25": 158.8899999998555,
+    "q75": 158.8899999998555,
+    "p95": 158.8899999998555,
+    "max": 158.8899999998555,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "handover_cost": {
+    "n": 1,
+    "mean": 0.6000000000000001,
+    "sd": 0.0,
+    "median": 0.6000000000000001,
+    "q25": 0.6000000000000001,
+    "q75": 0.6000000000000001,
+    "p95": 0.6000000000000001,
+    "max": 0.6000000000000001,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_hard_switch": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "n_soft_switch": {
+    "n": 1,
+    "mean": 3.0,
+    "sd": 0.0,
+    "median": 3.0,
+    "q25": 3.0,
+    "q75": 3.0,
+    "p95": 3.0,
+    "max": 3.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "energy_comm_wh": {
+    "n": 1,
+    "mean": 0.44214478459959794,
+    "sd": 0.0,
+    "median": 0.44214478459959794,
+    "q25": 0.44214478459959794,
+    "q75": 0.44214478459959794,
+    "p95": 0.44214478459959794,
+    "max": 0.44214478459959794,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "comm_power_mean_w": {
+    "n": 1,
+    "mean": 2.4947044457400795,
+    "sd": 0.0,
+    "median": 2.4947044457400795,
+    "q25": 2.4947044457400795,
+    "q75": 2.4947044457400795,
+    "p95": 2.4947044457400795,
+    "max": 2.4947044457400795,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "utility_cost": {
+    "n": 1,
+    "mean": 0.6973805786016551,
+    "sd": 0.0,
+    "median": 0.6973805786016551,
+    "q25": 0.6973805786016551,
+    "q75": 0.6973805786016551,
+    "p95": 0.6973805786016551,
+    "max": 0.6973805786016551,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "mission_completed": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_auc": {
+    "n": 1,
+    "mean": 0.6747636402049332,
+    "sd": 0.0,
+    "median": 0.6747636402049332,
+    "q25": 0.6747636402049332,
+    "q75": 0.6747636402049332,
+    "p95": 0.6747636402049332,
+    "max": 0.6747636402049332,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_ep_recall": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "pred_lead_mean_s": {
+    "n": 0
+   },
+   "pred_false_alarms_per_min": {
+    "n": 1,
+    "mean": 0.4701899567429516,
+    "sd": 0.0,
+    "median": 0.4701899567429516,
+    "q25": 0.4701899567429516,
+    "q75": 0.4701899567429516,
+    "p95": 0.4701899567429516,
+    "max": 0.4701899567429516,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_brier": {
+    "n": 1,
+    "mean": 0.015183055721236858,
+    "sd": 0.0,
+    "median": 0.015183055721236858,
+    "q25": 0.015183055721236858,
+    "q75": 0.015183055721236858,
+    "p95": 0.015183055721236858,
+    "max": 0.015183055721236858,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "blind_fraction": {
+    "n": 1,
+    "mean": 0.007914864271832488,
+    "sd": 0.0,
+    "median": 0.007914864271832488,
+    "q25": 0.007914864271832488,
+    "q75": 0.007914864271832488,
+    "p95": 0.007914864271832488,
+    "max": 0.007914864271832488,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_lat_p95_ms": {
+    "n": 1,
+    "mean": 57.365159999999996,
+    "sd": 0.0,
+    "median": 57.365159999999996,
+    "q25": 57.365159999999996,
+    "q75": 57.365159999999996,
+    "p95": 57.365159999999996,
+    "max": 57.365159999999996,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_lat_p999_ms": {
+    "n": 1,
+    "mean": 294.1737680000004,
+    "sd": 0.0,
+    "median": 294.1737680000004,
+    "q25": 294.1737680000004,
+    "q75": 294.1737680000004,
+    "p95": 294.1737680000004,
+    "max": 294.1737680000004,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_usable_fraction": {
+    "n": 1,
+    "mean": 0.6984671807410193,
+    "sd": 0.0,
+    "median": 0.6984671807410193,
+    "q25": 0.6984671807410193,
+    "q75": 0.6984671807410193,
+    "p95": 0.6984671807410193,
+    "max": 0.6984671807410193,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_pingpong": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "proactive_switch_frac": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "energy_per_video_mbit_j": {
+    "n": 1,
+    "mean": 0.8860626790722329,
+    "sd": 0.0,
+    "median": 0.8860626790722329,
+    "q25": 0.8860626790722329,
+    "q75": 0.8860626790722329,
+    "p95": 0.8860626790722329,
+    "max": 0.8860626790722329,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "spectrum_mean_mhz": {
+    "n": 1,
+    "mean": 10.819752680082754,
+    "sd": 0.0,
+    "median": 10.819752680082754,
+    "q25": 10.819752680082754,
+    "q75": 10.819752680082754,
+    "p95": 10.819752680082754,
+    "max": 10.819752680082754,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_primary_outages": {
+    "n": 1,
+    "mean": 2.0,
+    "sd": 0.0,
+    "median": 2.0,
+    "q25": 2.0,
+    "q75": 2.0,
+    "p95": 2.0,
+    "max": 2.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "outage_to_blind_rate": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_precision": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "pred_ece": {
+    "n": 1,
+    "mean": 0.015442787631455032,
+    "sd": 0.0,
+    "median": 0.015442787631455032,
+    "q25": 0.015442787631455032,
+    "q75": 0.015442787631455032,
+    "p95": 0.015442787631455032,
+    "max": 0.015442787631455032,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_ap": {
+    "n": 1,
+    "mean": 0.025258405593684956,
+    "sd": 0.0,
+    "median": 0.025258405593684956,
+    "q25": 0.025258405593684956,
+    "q75": 0.025258405593684956,
+    "p95": 0.025258405593684956,
+    "max": 0.025258405593684956,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   }
+  }
+ },
+ "n_runs": {
+  "pred_cost": 1
+ },
+ "outcomes": {
+  "pred_cost": {
+   "completed": 1
+  }
+ },
+ "comparisons": [],
+ "goals": [
+  {
+   "goal": "Control p99 latency <= 150 ms",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "ctrl_lat_p99_ms",
+   "type": "absolute_max",
+   "target": 150.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Control within 150 ms >= 99 %",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "ctrl_within_150ms_rate",
+   "type": "absolute_min",
+   "target": 0.99,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Mean comm power <= 8 W budget",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "comm_power_mean_w",
+   "type": "absolute_max",
+   "target": 8.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Outage-prediction AUC >= 0.90",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_auc",
+   "type": "absolute_min",
+   "target": 0.9,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Outage episode recall >= 0.90",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_ep_recall",
+   "type": "absolute_min",
+   "target": 0.9,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Mean warning lead time >= 1.0 s",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_lead_mean_s",
+   "type": "absolute_min",
+   "target": 1.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "False alarms <= 2 per minute",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_false_alarms_per_min",
+   "type": "absolute_max",
+   "target": 2.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Brier score <= 0.10",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_brier",
+   "type": "absolute_max",
+   "target": 0.1,
+   "verdict": "NO DATA"
+  }
+ ],
+ "pareto": {
+  "labels": [
+   "pred_cost"
+  ],
+  "mask": [
+   true
+  ],
+  "x": "comm_power_mean_w",
+  "y": "blind_time_s",
+  "size": "video_quality_mean"
+ },
+ "sweep": {},
+ "tiers": {
+  "ticks": 1
+ },
+ "keys_train": [],
+ "keys_test": [
+  [
+   "urban_canyon",
+   0
+  ]
+ ]
+}

@@ -1,0 +1,520 @@
+{
+ "notes": [
+  "1 runs did not complete the mission (failsafe landing, battery, timeout). Absolute blind time is censored by shorter flights; read blind_fraction / blind_per_min alongside it.",
+  "Blind time is zero-inflated for: pred_threshold. Means can be dominated by few runs; rank-based tests, the P(any blind) McNemar test and medians are reported too."
+ ],
+ "selection": null,
+ "labels": [
+  "pred_threshold"
+ ],
+ "proposed": [
+  "pred_threshold"
+ ],
+ "baselines": [],
+ "proposed_all": [
+  "pred_threshold"
+ ],
+ "metrics": [
+  "blind_time_s",
+  "blind_any",
+  "max_blind_episode_s",
+  "ctrl_within_100ms_rate",
+  "ctrl_within_150ms_rate",
+  "ctrl_lat_p99_ms",
+  "video_quality_mean",
+  "video_freeze_s",
+  "handover_cost",
+  "n_hard_switch",
+  "n_soft_switch",
+  "energy_comm_wh",
+  "comm_power_mean_w",
+  "utility_cost",
+  "mission_completed",
+  "pred_auc",
+  "pred_ep_recall",
+  "pred_lead_mean_s",
+  "pred_false_alarms_per_min",
+  "pred_brier",
+  "blind_fraction",
+  "ctrl_lat_p95_ms",
+  "ctrl_lat_p999_ms",
+  "video_usable_fraction",
+  "n_pingpong",
+  "proactive_switch_frac",
+  "energy_per_video_mbit_j",
+  "spectrum_mean_mhz",
+  "n_primary_outages",
+  "outage_to_blind_rate",
+  "pred_precision",
+  "pred_ece",
+  "pred_ap"
+ ],
+ "summary": {
+  "pred_threshold": {
+   "blind_time_s": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "blind_any": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "max_blind_episode_s": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "ctrl_within_100ms_rate": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_within_150ms_rate": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_lat_p99_ms": {
+    "n": 1,
+    "mean": 16.692355999999997,
+    "sd": 0.0,
+    "median": 16.692355999999997,
+    "q25": 16.692355999999997,
+    "q75": 16.692355999999997,
+    "p95": 16.692355999999997,
+    "max": 16.692355999999997,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_quality_mean": {
+    "n": 1,
+    "mean": 0.9131469300000001,
+    "sd": 0.0,
+    "median": 0.9131469300000001,
+    "q25": 0.9131469300000001,
+    "q75": 0.9131469300000001,
+    "p95": 0.9131469300000001,
+    "max": 0.9131469300000001,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_freeze_s": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "handover_cost": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "n_hard_switch": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "n_soft_switch": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "energy_comm_wh": {
+    "n": 1,
+    "mean": 0.04424561827777684,
+    "sd": 0.0,
+    "median": 0.04424561827777684,
+    "q25": 0.04424561827777684,
+    "q75": 0.04424561827777684,
+    "p95": 0.04424561827777684,
+    "max": 0.04424561827777684,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "comm_power_mean_w": {
+    "n": 1,
+    "mean": 2.654737096666667,
+    "sd": 0.0,
+    "median": 2.654737096666667,
+    "q25": 2.654737096666667,
+    "q75": 2.654737096666667,
+    "p95": 2.654737096666667,
+    "max": 2.654737096666667,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "utility_cost": {
+    "n": 1,
+    "mean": 0.18640571112499987,
+    "sd": 0.0,
+    "median": 0.18640571112499987,
+    "q25": 0.18640571112499987,
+    "q75": 0.18640571112499987,
+    "p95": 0.18640571112499987,
+    "max": 0.18640571112499987,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "mission_completed": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "pred_auc": {
+    "n": 0
+   },
+   "pred_ep_recall": {
+    "n": 0
+   },
+   "pred_lead_mean_s": {
+    "n": 0
+   },
+   "pred_false_alarms_per_min": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "pred_brier": {
+    "n": 1,
+    "mean": 0.001241396666666667,
+    "sd": 0.0,
+    "median": 0.001241396666666667,
+    "q25": 0.001241396666666667,
+    "q75": 0.001241396666666667,
+    "p95": 0.001241396666666667,
+    "max": 0.001241396666666667,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "blind_fraction": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "ctrl_lat_p95_ms": {
+    "n": 1,
+    "mean": 13.829284999999999,
+    "sd": 0.0,
+    "median": 13.829284999999999,
+    "q25": 13.829284999999999,
+    "q75": 13.829284999999999,
+    "p95": 13.829284999999999,
+    "max": 13.829284999999999,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_lat_p999_ms": {
+    "n": 1,
+    "mean": 24.594866800000116,
+    "sd": 0.0,
+    "median": 24.594866800000116,
+    "q25": 24.594866800000116,
+    "q75": 24.594866800000116,
+    "p95": 24.594866800000116,
+    "max": 24.594866800000116,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_usable_fraction": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_pingpong": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "proactive_switch_frac": {
+    "n": 0
+   },
+   "energy_per_video_mbit_j": {
+    "n": 1,
+    "mean": 0.4466622523204622,
+    "sd": 0.0,
+    "median": 0.4466622523204622,
+    "q25": 0.4466622523204622,
+    "q75": 0.4466622523204622,
+    "p95": 0.4466622523204622,
+    "max": 0.4466622523204622,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "spectrum_mean_mhz": {
+    "n": 1,
+    "mean": 20.0,
+    "sd": 0.0,
+    "median": 20.0,
+    "q25": 20.0,
+    "q75": 20.0,
+    "p95": 20.0,
+    "max": 20.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_primary_outages": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "outage_to_blind_rate": {
+    "n": 0
+   },
+   "pred_precision": {
+    "n": 0
+   },
+   "pred_ece": {
+    "n": 1,
+    "mean": 0.018099999999999998,
+    "sd": 0.0,
+    "median": 0.018099999999999998,
+    "q25": 0.018099999999999998,
+    "q75": 0.018099999999999998,
+    "p95": 0.018099999999999998,
+    "max": 0.018099999999999998,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_ap": {
+    "n": 0
+   }
+  }
+ },
+ "n_runs": {
+  "pred_threshold": 1
+ },
+ "outcomes": {
+  "pred_threshold": {
+   "timeout": 1
+  }
+ },
+ "comparisons": [],
+ "goals": [
+  {
+   "goal": "Control p99 latency <= 150 ms",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "ctrl_lat_p99_ms",
+   "type": "absolute_max",
+   "target": 150.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Control within 150 ms >= 99 %",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "ctrl_within_150ms_rate",
+   "type": "absolute_min",
+   "target": 0.99,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Mean comm power <= 8 W budget",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "comm_power_mean_w",
+   "type": "absolute_max",
+   "target": 8.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Outage-prediction AUC >= 0.90",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "pred_auc",
+   "type": "absolute_min",
+   "target": 0.9,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Outage episode recall >= 0.90",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "pred_ep_recall",
+   "type": "absolute_min",
+   "target": 0.9,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Mean warning lead time >= 1.0 s",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "pred_lead_mean_s",
+   "type": "absolute_min",
+   "target": 1.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "False alarms <= 2 per minute",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "pred_false_alarms_per_min",
+   "type": "absolute_max",
+   "target": 2.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Brier score <= 0.10",
+   "policy": "pred_threshold",
+   "vs": "",
+   "metric": "pred_brier",
+   "type": "absolute_max",
+   "target": 0.1,
+   "verdict": "NO DATA"
+  }
+ ],
+ "pareto": {
+  "labels": [
+   "pred_threshold"
+  ],
+  "mask": [
+   true
+  ],
+  "x": "comm_power_mean_w",
+  "y": "blind_time_s",
+  "size": "video_quality_mean"
+ },
+ "sweep": {},
+ "tiers": {
+  "ticks": 1
+ },
+ "keys_train": [],
+ "keys_test": [
+  [
+   "urban_canyon",
+   0
+  ]
+ ]
+}

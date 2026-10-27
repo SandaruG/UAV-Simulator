@@ -1,0 +1,12 @@
+\begin{table}[t]\centering\small
+\begin{tabular}{lrrrrrr}\toprule
+goal & policy & vs & estimate & 95\% CI & target & verdict \\\midrule
+Control p99 latency <= 150 ms & pred\_cost &  & - & [-, -] & 150 & NO DATA \\
+Control within 150 ms >= 99 \% & pred\_cost &  & - & [-, -] & 0.99 & NO DATA \\
+Mean comm power <= 8 W budget & pred\_cost &  & - & [-, -] & 8 & NO DATA \\
+Outage-prediction AUC >= 0.90 & pred\_cost &  & - & [-, -] & 0.9 & NO DATA \\
+Outage episode recall >= 0.90 & pred\_cost &  & - & [-, -] & 0.9 & NO DATA \\
+Mean warning lead time >= 1.0 s & pred\_cost &  & - & [-, -] & 1 & NO DATA \\
+False alarms <= 2 per minute & pred\_cost &  & - & [-, -] & 2 & NO DATA \\
+Brier score <= 0.10 & pred\_cost &  & - & [-, -] & 0.1 & NO DATA \\
+\bottomrule\end{tabular}\caption{goals}\end{table}

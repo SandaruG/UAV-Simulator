@@ -1,0 +1,2 @@
+policy,radio Wh [CI],mean W,p99 W,over power budget s,spectrum MHz,over spectrum s,J / delivered Mbit,% of battery
+pred_threshold,"0.0442 [-, -]",2.65,-,-,20,-,0.447,-

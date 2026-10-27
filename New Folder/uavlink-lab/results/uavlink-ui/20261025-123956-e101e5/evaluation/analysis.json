@@ -1,0 +1,540 @@
+{
+ "notes": [
+  "1 runs did not complete the mission (failsafe landing, battery, timeout). Absolute blind time is censored by shorter flights; read blind_fraction / blind_per_min alongside it.",
+  "Blind time is zero-inflated for: pred_cost. Means can be dominated by few runs; rank-based tests, the P(any blind) McNemar test and medians are reported too."
+ ],
+ "selection": null,
+ "labels": [
+  "pred_cost"
+ ],
+ "proposed": [
+  "pred_cost"
+ ],
+ "baselines": [],
+ "proposed_all": [
+  "pred_cost"
+ ],
+ "metrics": [
+  "blind_time_s",
+  "blind_any",
+  "max_blind_episode_s",
+  "ctrl_within_100ms_rate",
+  "ctrl_within_150ms_rate",
+  "ctrl_lat_p99_ms",
+  "video_quality_mean",
+  "video_freeze_s",
+  "handover_cost",
+  "n_hard_switch",
+  "n_soft_switch",
+  "energy_comm_wh",
+  "comm_power_mean_w",
+  "utility_cost",
+  "mission_completed",
+  "pred_auc",
+  "pred_ep_recall",
+  "pred_lead_mean_s",
+  "pred_false_alarms_per_min",
+  "pred_brier",
+  "blind_fraction",
+  "ctrl_lat_p95_ms",
+  "ctrl_lat_p999_ms",
+  "video_usable_fraction",
+  "n_pingpong",
+  "proactive_switch_frac",
+  "energy_per_video_mbit_j",
+  "spectrum_mean_mhz",
+  "n_primary_outages",
+  "outage_to_blind_rate",
+  "pred_precision",
+  "pred_ece",
+  "pred_ap"
+ ],
+ "summary": {
+  "pred_cost": {
+   "blind_time_s": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "blind_any": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "max_blind_episode_s": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "ctrl_within_100ms_rate": {
+    "n": 1,
+    "mean": 0.9999333333333333,
+    "sd": 0.0,
+    "median": 0.9999333333333333,
+    "q25": 0.9999333333333333,
+    "q75": 0.9999333333333333,
+    "p95": 0.9999333333333333,
+    "max": 0.9999333333333333,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_within_150ms_rate": {
+    "n": 1,
+    "mean": 0.9999333333333333,
+    "sd": 0.0,
+    "median": 0.9999333333333333,
+    "q25": 0.9999333333333333,
+    "q75": 0.9999333333333333,
+    "p95": 0.9999333333333333,
+    "max": 0.9999333333333333,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_lat_p99_ms": {
+    "n": 1,
+    "mean": 35.083006,
+    "sd": 0.0,
+    "median": 35.083006,
+    "q25": 35.083006,
+    "q75": 35.083006,
+    "p95": 35.083006,
+    "max": 35.083006,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_quality_mean": {
+    "n": 1,
+    "mean": 0.2861856521333334,
+    "sd": 0.0,
+    "median": 0.2861856521333334,
+    "q25": 0.2861856521333334,
+    "q75": 0.2861856521333334,
+    "p95": 0.2861856521333334,
+    "max": 0.2861856521333334,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_freeze_s": {
+    "n": 1,
+    "mean": 144.43999999999693,
+    "sd": 0.0,
+    "median": 144.43999999999693,
+    "q25": 144.43999999999693,
+    "q75": 144.43999999999693,
+    "p95": 144.43999999999693,
+    "max": 144.43999999999693,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "handover_cost": {
+    "n": 1,
+    "mean": 0.4,
+    "sd": 0.0,
+    "median": 0.4,
+    "q25": 0.4,
+    "q75": 0.4,
+    "p95": 0.4,
+    "max": 0.4,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_hard_switch": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "n_soft_switch": {
+    "n": 1,
+    "mean": 2.0,
+    "sd": 0.0,
+    "median": 2.0,
+    "q25": 2.0,
+    "q75": 2.0,
+    "p95": 2.0,
+    "max": 2.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "energy_comm_wh": {
+    "n": 1,
+    "mean": 0.1609709498333299,
+    "sd": 0.0,
+    "median": 0.1609709498333299,
+    "q25": 0.1609709498333299,
+    "q75": 0.1609709498333299,
+    "p95": 0.1609709498333299,
+    "max": 0.1609709498333299,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "comm_power_mean_w": {
+    "n": 1,
+    "mean": 1.9316513979999999,
+    "sd": 0.0,
+    "median": 1.9316513979999999,
+    "q25": 1.9316513979999999,
+    "q75": 1.9316513979999999,
+    "p95": 1.9316513979999999,
+    "max": 1.9316513979999999,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "utility_cost": {
+    "n": 1,
+    "mean": 0.7864512752916665,
+    "sd": 0.0,
+    "median": 0.7864512752916665,
+    "q25": 0.7864512752916665,
+    "q75": 0.7864512752916665,
+    "p95": 0.7864512752916665,
+    "max": 0.7864512752916665,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "mission_completed": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "pred_auc": {
+    "n": 0
+   },
+   "pred_ep_recall": {
+    "n": 0
+   },
+   "pred_lead_mean_s": {
+    "n": 0
+   },
+   "pred_false_alarms_per_min": {
+    "n": 1,
+    "mean": 0.40000000000000846,
+    "sd": 0.0,
+    "median": 0.40000000000000846,
+    "q25": 0.40000000000000846,
+    "q75": 0.40000000000000846,
+    "p95": 0.40000000000000846,
+    "max": 0.40000000000000846,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_brier": {
+    "n": 1,
+    "mean": 0.002085657575757576,
+    "sd": 0.0,
+    "median": 0.002085657575757576,
+    "q25": 0.002085657575757576,
+    "q75": 0.002085657575757576,
+    "p95": 0.002085657575757576,
+    "max": 0.002085657575757576,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "blind_fraction": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "ctrl_lat_p95_ms": {
+    "n": 1,
+    "mean": 30.786579999999997,
+    "sd": 0.0,
+    "median": 30.786579999999997,
+    "q25": 30.786579999999997,
+    "q75": 30.786579999999997,
+    "p95": 30.786579999999997,
+    "max": 30.786579999999997,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "ctrl_lat_p999_ms": {
+    "n": 1,
+    "mean": 42.233982400000535,
+    "sd": 0.0,
+    "median": 42.233982400000535,
+    "q25": 42.233982400000535,
+    "q75": 42.233982400000535,
+    "p95": 42.233982400000535,
+    "max": 42.233982400000535,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "video_usable_fraction": {
+    "n": 1,
+    "mean": 0.5168,
+    "sd": 0.0,
+    "median": 0.5168,
+    "q25": 0.5168,
+    "q75": 0.5168,
+    "p95": 0.5168,
+    "max": 0.5168,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_pingpong": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "proactive_switch_frac": {
+    "n": 1,
+    "mean": 1.0,
+    "sd": 0.0,
+    "median": 1.0,
+    "q25": 1.0,
+    "q75": 1.0,
+    "p95": 1.0,
+    "max": 1.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "energy_per_video_mbit_j": {
+    "n": 1,
+    "mean": 1.241421206940874,
+    "sd": 0.0,
+    "median": 1.241421206940874,
+    "q25": 1.241421206940874,
+    "q75": 1.241421206940874,
+    "p95": 1.241421206940874,
+    "max": 1.241421206940874,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "spectrum_mean_mhz": {
+    "n": 1,
+    "mean": 8.322033333333334,
+    "sd": 0.0,
+    "median": 8.322033333333334,
+    "q25": 8.322033333333334,
+    "q75": 8.322033333333334,
+    "p95": 8.322033333333334,
+    "max": 8.322033333333334,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "n_primary_outages": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "outage_to_blind_rate": {
+    "n": 0
+   },
+   "pred_precision": {
+    "n": 1,
+    "mean": 0.0,
+    "sd": 0.0,
+    "median": 0.0,
+    "q25": 0.0,
+    "q75": 0.0,
+    "p95": 0.0,
+    "max": 0.0,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 0.0
+   },
+   "pred_ece": {
+    "n": 1,
+    "mean": 0.01547575757575758,
+    "sd": 0.0,
+    "median": 0.01547575757575758,
+    "q25": 0.01547575757575758,
+    "q75": 0.01547575757575758,
+    "p95": 0.01547575757575758,
+    "max": 0.01547575757575758,
+    "ci_lo": NaN,
+    "ci_hi": NaN,
+    "frac_nonzero": 1.0
+   },
+   "pred_ap": {
+    "n": 0
+   }
+  }
+ },
+ "n_runs": {
+  "pred_cost": 1
+ },
+ "outcomes": {
+  "pred_cost": {
+   "timeout": 1
+  }
+ },
+ "comparisons": [],
+ "goals": [
+  {
+   "goal": "Control p99 latency <= 150 ms",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "ctrl_lat_p99_ms",
+   "type": "absolute_max",
+   "target": 150.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Control within 150 ms >= 99 %",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "ctrl_within_150ms_rate",
+   "type": "absolute_min",
+   "target": 0.99,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Mean comm power <= 8 W budget",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "comm_power_mean_w",
+   "type": "absolute_max",
+   "target": 8.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Outage-prediction AUC >= 0.90",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_auc",
+   "type": "absolute_min",
+   "target": 0.9,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Outage episode recall >= 0.90",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_ep_recall",
+   "type": "absolute_min",
+   "target": 0.9,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Mean warning lead time >= 1.0 s",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_lead_mean_s",
+   "type": "absolute_min",
+   "target": 1.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "False alarms <= 2 per minute",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_false_alarms_per_min",
+   "type": "absolute_max",
+   "target": 2.0,
+   "verdict": "NO DATA"
+  },
+  {
+   "goal": "Brier score <= 0.10",
+   "policy": "pred_cost",
+   "vs": "",
+   "metric": "pred_brier",
+   "type": "absolute_max",
+   "target": 0.1,
+   "verdict": "NO DATA"
+  }
+ ],
+ "pareto": {
+  "labels": [
+   "pred_cost"
+  ],
+  "mask": [
+   true
+  ],
+  "x": "comm_power_mean_w",
+  "y": "blind_time_s",
+  "size": "video_quality_mean"
+ },
+ "sweep": {},
+ "tiers": {
+  "ticks": 1
+ },
+ "keys_train": [],
+ "keys_test": [
+  [
+   "jammed_inspection",
+   0
+  ]
+ ]
+}

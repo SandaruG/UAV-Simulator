@@ -1,0 +1,19 @@
+{
+ "plan_hash": "31a3ca16ba4c0128",
+ "rejects": {},
+ "scn_rejects": {},
+ "notes": [],
+ "combos": [
+  {
+   "id": "cc5b4675",
+   "name": "elrs24+nr_a+crossfire868",
+   "n_links": 3,
+   "peak_w": 7.630384296305643,
+   "mass_kg": 0.19,
+   "scn_ok": {
+    "jammed_inspection": null,
+    "urban_canyon": null
+   }
+  }
+ ]
+}

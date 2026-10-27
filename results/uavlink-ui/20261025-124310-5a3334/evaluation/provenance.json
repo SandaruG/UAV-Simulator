@@ -1,0 +1,12 @@
+{
+ "n_jobs": 1,
+ "n_errors": 0,
+ "errors": [],
+ "crc_mismatch": [],
+ "config_hash": "5c5d634dd13afb21",
+ "module_version": "1.0.0",
+ "numpy": "1.26.4",
+ "python": "3.12.3",
+ "source": "/home/sandaru-gaurange/Downloads/UAV/results/uavlink-ui/20261025-124310-5a3334",
+ "resim": false
+}

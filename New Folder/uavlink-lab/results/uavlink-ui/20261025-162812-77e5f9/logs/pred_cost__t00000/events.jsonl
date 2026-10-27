@@ -1,0 +1,14 @@
+{"kind":"start","policy":"predictive_handover","scenario":"urban_canyon","seed":256268580882155520,"t":0.0}
+{"from":"cell3","kind":"handover","link":"lte","t":13.68,"to":"cell2"}
+{"idx":0,"kind":"wp_reached","t":15.1}
+{"delay_s":0.278,"kind":"link_warming","link":"lte","t":16.38}
+{"delay_s":0.047,"kind":"link_warming","link":"sub1ghz","t":16.38}
+{"kind":"link_ready","link":"sub1ghz","t":16.44}
+{"from":"cell2","kind":"handover","link":"lte","t":19.16,"to":"cell3"}
+{"from":"cell3","kind":"handover","link":"lte","t":21.24,"to":"cell2"}
+{"from":"cell2","kind":"handover","link":"lte","t":22.98,"to":"cell3"}
+{"from":"cell3","kind":"handover","link":"lte","t":26.42,"to":"cell2"}
+{"dur":1.273,"fault":"rssi_offset","id":0,"kind":"fault_start","link":"sub1ghz","origin":"process","params":{"db":8.069685698352712},"t":31.18}
+{"fault":"rssi_offset","id":0,"kind":"fault_end","t":32.44}
+{"idx":1,"kind":"wp_reached","t":55.84}
+{"kind":"end","outcome":"timeout","t":60.0}

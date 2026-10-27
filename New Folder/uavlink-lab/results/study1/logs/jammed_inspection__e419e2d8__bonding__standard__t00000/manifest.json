@@ -1,0 +1,38 @@
+{
+ "run_id": "jammed_inspection__e419e2d8__bonding__standard__t00000",
+ "seed": 256268580882155520,
+ "policy": {
+  "class": "exhaustive_experiment:RolePolicy",
+  "params": {
+   "inner": {
+    "name": "bonding",
+    "params": {}
+   },
+   "control_ok": [
+    "wifi",
+    "rf24"
+   ],
+   "video_ok": [
+    "wifi",
+    "rf24"
+   ]
+  }
+ },
+ "scenario_hash": "176a0f31cbb779b5",
+ "module_version": "1.0.0",
+ "module_sha": "fb3985759c966c79",
+ "numpy": "1.26.4",
+ "python": "3.12.3",
+ "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+ "argv": [
+  "exhaustive_experiment.py",
+  "--config",
+  "study_demo.json",
+  "--out",
+  "results/study1"
+ ],
+ "partial": false,
+ "tick_hash": "59381910d2bce795",
+ "state_crc": 1411224149,
+ "created_utc": "2026-10-26T10:10:13Z"
+}

@@ -1,0 +1,9 @@
+tech,policy,metric,n_pairs,mean_delta,median_delta,frac_improving
+rf24,ALL,blind_time_s,3,0.000000000,0.000000000,0.000000000
+rf24,bonding,blind_time_s,1,0.000000000,0.000000000,0.000000000
+rf24,pred_cost,blind_time_s,1,0.000000000,0.000000000,0.000000000
+rf24,reactive,blind_time_s,1,0.000000000,0.000000000,0.000000000
+wifi,ALL,blind_time_s,3,0.000000000,0.000000000,0.000000000
+wifi,bonding,blind_time_s,1,0.000000000,0.000000000,0.000000000
+wifi,pred_cost,blind_time_s,1,0.000000000,0.000000000,0.000000000
+wifi,reactive,blind_time_s,1,0.000000000,0.000000000,0.000000000

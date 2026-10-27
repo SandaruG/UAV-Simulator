@@ -1,0 +1,4 @@
+policy,n_combos,mean_blind,best_blind,mean_diff_vs_ref(per combo),frac_combos_better_than_ref,p_vs_ref
+bonding,4,0.000000000,0.000000000,0.000000000,0.000000000,1.000000000
+pred_cost,4,0.000000000,0.000000000,0.000000000,0.000000000,1.000000000
+reactive,4,0.000000000,0.000000000,nan,nan,nan

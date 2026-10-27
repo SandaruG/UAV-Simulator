@@ -1,0 +1,342 @@
+{
+ "name": "deep-full-radio-study",
+ "techs": {
+  "enabled": [
+   "fpv58_analog",
+   "ocusync",
+   "wifi",
+   "hdzero",
+   "walksnail",
+   "elrs24",
+   "rf24",
+   "rf900",
+   "crossfire868",
+   "lr12g",
+   "cell",
+   "nr_a",
+   "sim_bond",
+   "leo",
+   "mesh_manet",
+   "fiber_tether"
+  ],
+  "groups_enabled": {},
+  "max_links": 3,
+  "min_links": 1,
+  "force_include_all": [],
+  "force_include_any": [
+   [
+    "elrs24",
+    "rf900",
+    "crossfire868",
+    "rf24",
+    "cell",
+    "nr_a",
+    "sim_bond",
+    "ocusync",
+    "wifi"
+   ]
+  ],
+  "force_exclude": [],
+  "exclusive_groups": [
+   [
+    "fpv58_analog",
+    "ocusync",
+    "wifi",
+    "openhd58",
+    "walksnail",
+    "hdzero",
+    "openipc58"
+   ],
+   [
+    "elrs24",
+    "rf24"
+   ],
+   [
+    "nr_a",
+    "sim_bond"
+   ],
+   [
+    "leo",
+    "oneweb_ku"
+   ],
+   [
+    "inmarsat_l",
+    "geo_ku"
+   ]
+  ],
+  "conflicts": [],
+  "requires": {},
+  "overrides": {},
+  "options": {},
+  "aliases": {
+   "analog_fpv_58": "fpv58_analog",
+   "digital_58_dji": "ocusync",
+   "digital_58_openhd": "wifi",
+   "ism_24_ctrl": "elrs24",
+   "ism_24_wifi": "rf24",
+   "lr_12": "lr12g",
+   "sub_868_900": "rf900",
+   "band_17": "lr17g",
+   "band_33": "lr33g",
+   "band_72": "lr72g",
+   "cell_lte": "cell",
+   "cell_5g": "nr_a",
+   "cell_5g_multisim": "sim_bond",
+   "sat_leo_starlink": "leo",
+   "sat_kuka_leo": "oneweb_ku",
+   "sat_iridium": "iridium_certus",
+   "sat_sband_leo": "globalstar_s",
+   "sat_lband_geo": "inmarsat_l",
+   "sat_kuka_geo": "geo_ku",
+   "mesh_rf": "mesh_manet",
+   "fiber_tether": "fiber_tether",
+   "wifi_5g": "wifi",
+   "lte": "cell",
+   "sub1ghz": "rf900",
+   "rf_24": "rf24",
+   "sat_leo": "leo",
+   "sat_oneweb_ku": "oneweb_ku"
+  },
+  "radio_overrides": {}
+ },
+ "filters": {
+  "max_radio_power_w": null,
+  "max_payload_kg": 1.5,
+  "max_mean_power_w": null,
+  "min_control_reliability": 0.0,
+  "min_completion_rate": 0.0,
+  "require_control_link": true,
+  "require_video_link": true,
+  "drop_nonrealtime_links": true,
+  "max_control_latency_ms": null,
+  "max_video_latency_ms": null,
+  "min_control_margin_db": 6.0,
+  "min_control_coverage": 1.0,
+  "min_video_margin_db": 3.0,
+  "min_video_coverage": 0.0,
+  "min_video_bps": 300000.0,
+  "tether_margin": 1.1
+ },
+ "policies": {
+  "policies": [
+   "pred_cost"
+  ],
+  "mode": "cross",
+  "per_combo": 2,
+  "reference": "reactive",
+  "wrap_roles": true,
+  "reactive_priority": "robust_latency"
+ },
+ "scale": {
+  "seeds": 1,
+  "master_seed": 2026,
+  "duration_s": 600.0,
+  "dt": 0.05,
+  "ctrl_hz": 20.0,
+  "scenarios": [
+   "jammed_inspection",
+   "urban_canyon"
+  ],
+  "sim_overrides": {},
+  "strategy": "explicit",
+  "strength": 2,
+  "random_n": 100,
+  "per_size": {
+   "1": "all",
+   "2": "all",
+   "3": 50
+  },
+  "explicit": [
+   [
+    "elrs24",
+    "nr_a",
+    "crossfire868"
+   ]
+  ],
+  "max_combinations": 80,
+  "max_runs": 5000,
+  "exceed_action": "error",
+  "enumeration_limit": 3000000,
+  "sampling_seed": 1,
+  "halving": {
+   "base_strategy": "pairwise",
+   "rank_by": "blind_time_s",
+   "score_policy": "best",
+   "min_survivors": 3,
+   "stages": [
+    {
+     "seeds": 2,
+     "keep": 0.3,
+     "policies": "reference"
+    },
+    {
+     "seeds": 5,
+     "keep": 0.5,
+     "policies": "all"
+    },
+    {
+     "seeds": 12,
+     "keep": 1.0,
+     "policies": "all"
+    }
+   ]
+  },
+  "video_modes": [
+   "standard"
+  ],
+  "ai_video": {
+   "apply": "constrained_only",
+   "constrained_mbps": 3.0,
+   "q_r0_bps": 60000.0,
+   "max_bps": 2000000.0,
+   "fec": 0.25,
+   "encode_latency_ms": 40.0,
+   "compute_w": 6.0,
+   "mass_kg": 0.05
+  },
+  "payload_hover_w_per_kg": 88.0
+ },
+ "metrics": {
+  "record": [
+   "blind_time_s",
+   "blind_fraction",
+   "blind_any",
+   "n_blind_episodes",
+   "max_blind_episode_s",
+   "ctrl_unreliable_s",
+   "ctrl_only_loss_s",
+   "video_unusable_s",
+   "ctrl_ontime_rate",
+   "ctrl_lost_rate",
+   "ctrl_late_rate",
+   "ctrl_within_100ms_rate",
+   "ctrl_within_150ms_rate",
+   "ctrl_lat_p50_ms",
+   "ctrl_lat_p95_ms",
+   "ctrl_lat_p99_ms",
+   "ctrl_lat_p999_ms",
+   "ctrl_lat_max_ms",
+   "ctrl_max_gap_ms",
+   "video_quality_mean",
+   "video_usable_fraction",
+   "video_freeze_s",
+   "video_freeze_events",
+   "video_mean_mbps",
+   "energy_comm_wh",
+   "comm_power_mean_w",
+   "comm_power_p99_w",
+   "over_power_budget_s",
+   "spectrum_mean_mhz",
+   "energy_per_video_mbit_j",
+   "n_hard_switch",
+   "n_soft_switch",
+   "n_pingpong",
+   "handover_cost",
+   "switch_per_min",
+   "proactive_switch_frac",
+   "dup_time_s",
+   "n_rlf",
+   "n_failsafe",
+   "utility_cost",
+   "mission_completed",
+   "mission_completion_s",
+   "wp_progress",
+   "soc_end",
+   "flight_s",
+   "sim_time_s",
+   "pred_auc",
+   "pred_brier",
+   "pred_ep_recall",
+   "pred_lead_mean_s",
+   "pred_false_alarms_per_min",
+   "outage_to_blind_rate"
+  ],
+  "source": "eval",
+  "decimals": 6,
+  "number_format": "fixed",
+  "md_decimals": 4,
+  "save_ticks": "none",
+  "include_runs_in_json": false,
+  "eval_config": {},
+  "aggregate": [
+   "blind_time_s",
+   "blind_fraction",
+   "blind_any",
+   "max_blind_episode_s",
+   "ctrl_within_150ms_rate",
+   "ctrl_lat_p99_ms",
+   "video_quality_mean",
+   "video_freeze_s",
+   "comm_power_mean_w",
+   "energy_comm_wh",
+   "n_hard_switch",
+   "n_soft_switch",
+   "handover_cost",
+   "quality_per_watt",
+   "utility_cost",
+   "mission_completed"
+  ]
+ },
+ "execution": {
+  "backend": "high_fidelity",
+  "physics_dt_s": 0.01,
+  "radio_dt_s": null,
+  "workers": 2,
+  "resume": false,
+  "retry_errors": true,
+  "progress_interval_s": 10.0,
+  "inflight_factor": 3,
+  "fsync_every": 50,
+  "calibrate": true,
+  "calibrate_sim_s": 12.0,
+  "dry_run": false,
+  "force_resume": false
+ },
+ "output": {
+  "dir": "results/mission_length_probe_timed",
+  "write_results_json": true,
+  "plan_files": true
+ },
+ "ranking": {
+  "primary": "blind_time_s",
+  "efficiency": "quality_per_watt",
+  "efficiency_higher_is_better": true,
+  "top_k": 20,
+  "alpha": 0.05,
+  "scope": "pooled",
+  "min_runs": 0,
+  "pareto": [
+   "blind_time_s",
+   "comm_power_mean_w",
+   "video_quality_mean",
+   "ctrl_lat_p99_ms"
+  ]
+ },
+ "interference": {
+  "keep_scenario": true,
+  "random": {},
+  "jam_groups": [
+   "fpv_58",
+   "digital_58",
+   "ism_24",
+   "lr_12",
+   "sub_ghz",
+   "other_bands",
+   "cellular",
+   "mesh"
+  ]
+ },
+ "randomize": {
+  "wind_scale": [
+   0.7,
+   1.5
+  ],
+  "waypoint_jitter_m": 60.0,
+  "alt_jitter_m": 5.0,
+  "speed_scale": [
+   0.9,
+   1.1
+  ]
+ },
+ "sim_module": null
+}

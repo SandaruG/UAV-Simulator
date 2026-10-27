@@ -1,0 +1,2 @@
+{"kind":"start","policy":"cost_predictive","scenario":"jammed_inspection","seed":256268580882155520,"t":0.0}
+{"kind":"end","outcome":"timeout","t":2.0}

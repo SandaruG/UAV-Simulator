@@ -1,0 +1,25 @@
+{
+ "run_id": "predictive__t00000",
+ "seed": 1958177328105551872,
+ "policy": {
+  "name": "predictive_handover",
+  "params": {
+   "handover_config": {},
+   "link_specs": {},
+   "policy_name": "cost"
+  }
+ },
+ "scenario_hash": "e8ff4f8a01eb2418",
+ "module_version": "1.0.0",
+ "module_sha": "fb3985759c966c79",
+ "numpy": "1.26.4",
+ "python": "3.12.3",
+ "platform": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+ "argv": [
+  "run_experiment.py"
+ ],
+ "partial": false,
+ "tick_hash": "d1030e91506c0b20",
+ "state_crc": 4290132535,
+ "created_utc": "2026-10-25T05:41:49Z"
+}
